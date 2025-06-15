@@ -1,4 +1,4 @@
-REVERT 명령어
+# REVERT 명령어
 
 커밋 되돌리기 ( "git 실습 파일생성")
 git revert {커밋 아이디}
@@ -24,3 +24,4 @@ q! Enter입력
 (제미나이의 TIP)
 VIM 편집기가 어색하여 사용이 익숙치 않다면 편집기 변경 방법(git bash)
 git config --global core.editor "code --wait"
+ 이거 하고 revert 하면 vscode로 편집기가 작동함 훨씬 직관적이라 편함.
